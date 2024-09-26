@@ -1,10 +1,6 @@
 from flask import Flask, jsonify, request
 from tag_map import *
 from fetch import fetch_url
-from dotenv import load_dotenv
-
-load_dotenv()
-
 
 app = Flask(__name__)
     
