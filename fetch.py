@@ -14,7 +14,7 @@ from pixiv_utils.pixiv_crawler import (
     user_config,
 )
 
-ARTWORK_URL = "https://www.pixiv.net/en/artworks/"
+ARTWORK_URL = "https://www.phixiv.net/en/artworks/"
 
 load_dotenv()
 USER_ID = os.getenv("USER_ID")
